@@ -1,4 +1,4 @@
-### I see two ID fields when creating a zap. Does it matter which one I choose?
+### I see two ID fields when creating a Zap. Does it matter which one I choose?
 
 You can use either 'ID' field. 
 
