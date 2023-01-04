@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# documentation
-=======
-# Next.js example
-=======
 # Full Next.js example
->>>>>>> 084eca5 (convert Next.js starter to typescript)
 
 This is a full-featured boilerplate for a creating a documentation website using Markdoc and Next.js.
 
@@ -43,9 +36,4 @@ The quickest way to deploy your own version of this boilerplate is by deploying 
 
 ### Deploy to Netlify
 
-<<<<<<< HEAD
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/simple-nextjs-starter)
->>>>>>> 46c0ad6 (first commit)
-=======
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/next.js-starter)
->>>>>>> 30add0f (update link)
