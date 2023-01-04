@@ -33,9 +33,13 @@ The quickest way to deploy your own version of this boilerplate is by deploying 
 
 ### Deploy with Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/markdoc/simple-nextjs-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/markdoc/next.js-starter)
 
 ### Deploy to Netlify
 
+<<<<<<< HEAD
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/simple-nextjs-starter)
 >>>>>>> 46c0ad6 (first commit)
+=======
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/next.js-starter)
+>>>>>>> 30add0f (update link)
