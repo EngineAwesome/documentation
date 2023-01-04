@@ -1,5 +1,5 @@
 ---
-title: Get started with Markdoc
+title: Getting started with Engine Awesome
 description: How to get started with Markdoc
 ---
 
