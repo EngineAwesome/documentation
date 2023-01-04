@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # documentation
 =======
 # Next.js example
+=======
+# Full Next.js example
+>>>>>>> 084eca5 (convert Next.js starter to typescript)
 
-This is a boilerplate for a creating a documentation website using Markdoc and Next.js.
+This is a full-featured boilerplate for a creating a documentation website using Markdoc and Next.js.
 
 ## Setup
 
