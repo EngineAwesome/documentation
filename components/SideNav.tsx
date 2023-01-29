@@ -5,8 +5,48 @@ import Link from 'next/link';
 const items = [
   {
     title: 'Get started',
-    links: [{href: '/docs', children: 'Overview'}],
+    links: [
+      { href: '/docs/get-started', children: 'Opening an account' },
+      { href: '/docs/get-started/teams', children: 'Managing Teams' },
+      { href: '/docs/get-started/users', children: 'Adding Users' }
+    ]
   },
+  {
+    title: 'Object Types',
+    links: [
+      { href: '/docs/object-types', children: 'Setting up an Object Type' },
+      { href: '/docs/nodes', children: 'Nodes' },
+      { href: '/docs/tags', children: 'Tags' },
+      { href: '/docs/attributes', children: 'Attributes' },
+      { href: '/docs/variables', children: 'Variables' },
+      { href: '/docs/functions', children: 'Functions' },
+      {
+        href: '/docs/render',
+        children: 'Rendering'
+      },
+      {
+        href: '/docs/config',
+        children: 'Config objects'
+      },
+      { href: '/docs/validation', children: 'Validation' }
+    ]
+  },
+  {
+    title: 'Integration guides',
+    links: [
+      { href: '/docs/examples', children: 'Common examples' },
+      { href: '/docs/examples/html', children: 'Using with HTML' },
+      { href: '/docs/nextjs', children: 'Using with Next.js' },
+      { href: '/docs/examples/react', children: 'Using with React' }
+    ]
+  },
+  {
+    title: 'Advanced concepts',
+    links: [
+      { href: '/docs/frontmatter', children: 'Frontmatter' },
+      { href: '/docs/partials', children: 'Partials' }
+    ]
+  }
 ];
 
 export function SideNav() {

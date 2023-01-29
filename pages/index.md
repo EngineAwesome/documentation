@@ -1,44 +1,45 @@
 ---
-title: Getting started with Engine Awesome
-description: How to get started with Markdoc
+title: Get started with Engine Awesome
+description: Engine Awesome allows you to build applications to run your business, without writing any code. It's designed to be incredibly powerful, flexible and easy to learn.
+date: January 3, 2023
 ---
 
-# Full Next.js example
+# {% $markdoc.frontmatter.title %}
 
-{% callout %}
-This is a full-featured boilerplate for a creating a documentation website using Markdoc and Next.js.
+{% callout type="check" %}
+{% $markdoc.frontmatter.description %}
 {% /callout %}
 
-## Setup
+Welcome to Engine Awesome! This guide covers everything you need to know about building applications in Engine Awesome.
 
-First, clone this repo and install the dependencies required:
 
-```bash
-npm install
-# or
-yarn install
-```
+## What is Engine Awesome?
 
-Then, run the development server:
+With Engine Awesome, you can build powerful, custom applications to support your business or team’s most important workflows.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Some examples are a content management system(CRM), quoting/invoicing system, project management tool or all of the above!  Engine Awesome is flexible enough to handle workflows of all sizes, and grow with your business or team.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `index.md`. The page auto-updates as you edit the file.
+You can build a custom application in just three simple steps:
 
-## Deploy
+## 1. Create an Object Type
+Object Types allow you to group similar data together. Common examples are "Contacts", "Projects" and "Invoices".
 
-The quickest way to deploy your own version of this boilerplate is by deploying it with [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com/) by clicking one of the buttons below.
+In Engine Awesome, creating an Object Type is as simple and going to your Team settings page, filling in the "Add Object Type" field and pressing "add".
 
-### Deploy with Vercel
+Engine Awesome can handle as many Object Types as you like.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/markdoc/next.js-starter)
+## 2. Define your Objects
+Once you've created an Object Type, you will need to define it, adding all the fields you want to use with this Object, and any Object relationships you want it to have.
 
-### Deploy to Netlify
+For example, you may have two Object Types, "Companies" and "Contacts". For the "Contact" Object, you can add fields like "First Name" and "Last Name". Then you can create a relationship between "Contacts" and "Companies".
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/next.js-starter)
+The Object can be as extensive as you like. Additionally, you can add to it as you business grows and your needs change.
+
+## 3. Create a Layout
+Now you get to take all those fields and relationships you defined in your schema and create Layouts with them. Layouts can be forms or list tables or a combination of both. Both individual fields and full Layouts can be conditionally shown based on other field values.
+
+Layouts are incredibly powerful, and there's no limit to how many you can have for each Object Type. 
+
+
+{% partial file="footer.md" /%}
