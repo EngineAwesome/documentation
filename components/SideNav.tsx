@@ -14,30 +14,14 @@ const items = [
   {
     title: 'Object Types',
     links: [
-      { href: '/docs/object-types', children: 'Setting up an Object Type' },
-      { href: '/docs/nodes', children: 'Nodes' },
-      { href: '/docs/tags', children: 'Tags' },
-      { href: '/docs/attributes', children: 'Attributes' },
-      { href: '/docs/variables', children: 'Variables' },
-      { href: '/docs/functions', children: 'Functions' },
-      {
-        href: '/docs/render',
-        children: 'Rendering'
-      },
-      {
-        href: '/docs/config',
-        children: 'Config objects'
-      },
-      { href: '/docs/validation', children: 'Validation' }
+      { href: '/docs/object-types', children: 'Overview' },
+      { href: '/docs/object-types/fields-relationships', children: 'Fields & Relationships' }
     ]
   },
   {
-    title: 'Integration guides',
+    title: 'Layouts',
     links: [
-      { href: '/docs/examples', children: 'Common examples' },
-      { href: '/docs/examples/html', children: 'Using with HTML' },
-      { href: '/docs/nextjs', children: 'Using with Next.js' },
-      { href: '/docs/examples/react', children: 'Using with React' }
+      { href: '/docs/layouts', children: 'Overview' }
     ]
   },
   {

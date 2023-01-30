@@ -1,7 +1,7 @@
 ---
 title: Object Types
 description: Object Types allow you to store similar information together—like contacts, quotes, or projects. Adding at least one Object Type is the first step to using Engine Awesome.
-date: January 3, 2023
+date: January 29, 2023
 ---
 
 # {% $markdoc.frontmatter.title %}
@@ -12,36 +12,45 @@ date: January 3, 2023
 
 
 
-## 1. Add Object Types
+## 1. Add
 From your Team Settings page, scroll down to the "Add Object Type" area, and simply type in the name you want to use, in it's plural form. Some examples are: contacts, projects, jobs, stores, etc. 
 
-Congratulations! You just created your first Object Type.
-
-Your Object Type is now listed in the "Object Types" area, and it's time to configure it. 
+Congratulations! You just created your first Object Type. Now it's time to configure it. 
 
 ## 2. Configure
 When you configure your Object Type, you are essentially setting it up work the way you want. You add fields and define relationships with other Object Types.
 
-Let's get started! In the "Object Types" area, click "Edit Object Type" for the object you want to configure. You should now be on the "Edit Object" screen.
+In the "Object Types" area, click "Edit Object Type" for the object you want to configure. You should now be on the "Edit Object" screen.
 
-## 3. Fields
-Fields allow you to store data within an Object Type. With Engine Awesome, you choose the kind of data you want to store, the field type and the name. Everything is exactly the way you want it. 
+### Settings
+In the settings panel to the right, click on the "Object Type" tab to reveal settings:
 
-The order in which you define your fields doesn't matter. To get started, click the big blue + at the top of the screen to open the field library. Simply, double-click on the a field type to place it on the canvas, or drag it over.
+#### Plural Label
+The plural version of your Object Type.
 
-Engine Awesome has a ton of field types to choose from:
+#### Singular Label
+The singular version of your Object Type.
 
-### Text
-A simple one-line text field. 
+#### Item Label Fields
+This how an indivdual record of this Object Type will be named. For example, if you're working with a "Contacts" Object Type, and you have two fields setup as "First Name" and "Last Name", you would enter them here. This information is only reflected in the admininstration area of Engine Awesome.
 
-### Name
-Used to store the name of a person, animal, etc. If you want to store a person's first and last name, you would use this field twice.
+#### Layouts
+You can create as many Layouts as you like for each Object Type. All your created Layouts are listed here, or you can click "Create Layout" to define a new one.
 
-### Phone Number
-Store a phone number from any country. *[Smart Field](#smart-fields)*
+### Tools
+Engine Awesome provides some tools to help you manage your Object Type. You can access them by clicking on the three dots in the upper right side of the screen.
 
+#### Duplicate
+Duplicate this Object Type
 
-### Smart Fields
+#### Delete
+Delete your Object Type. WARNING: This is permanent.
+
+#### Help
+Will bring you to this help document.
+
+## 3. Add Fields and Relationships
+See [Fields and Relationships](object-types/fields-relationships)
 
 {% partial file="footer.md" /%}
 
